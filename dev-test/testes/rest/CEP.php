@@ -47,5 +47,4 @@ class CEP
     }
 }
 
-var_dump(CEP::getAddressByCep("63170000"));
-//var_dump(CEP::getAddressByCep($cep));
+var_dump(CEP::getAddressByCep($cep));
