@@ -6,5 +6,13 @@
 // em todos os outros casos, retorna falso.
 
 function removeProperty(obj, prop) {
-  return null;
+  
+	if (obj[prop] == undefined) {
+		return false;
+  }
+  
+	delete obj[prop];
+	return true;
 }
+  const obj = {name: 'wesley', age: 20, favouriteColour:"white"};
+  console.log(removeProperty(obj, 'favouriteColour'));
