@@ -26,9 +26,13 @@
 // </div>
 
 
-
 function setup () {
-  // Write your code here.
+  let removeImg = document.querySelectorAll('.remove')
+  for (let i = 0; i < removeImg.length; i++) {
+    removeImg[i].addEventListener("click", function() {
+      this.parentNode.parentNode.removeChild(this.parentNode);
+    });
+  }
 }
 
 // Example case. 
