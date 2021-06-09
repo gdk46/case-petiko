@@ -41,9 +41,11 @@ class CEP
 {
     public static function getAddressByCep($cep)
     {
-        return NULL;
+      $url = "https://viacep.com.br/ws/{$cep}/json/";
+      
+      return file_get_contents($url);
     }
 }
 
-
-var_dump(CEP::getAddressByCep($cep));
+var_dump(CEP::getAddressByCep("63170000"));
+//var_dump(CEP::getAddressByCep($cep));
