@@ -26,3 +26,16 @@ A ferramenta utilizada para criar esse processo foi o Trello.
 * SQL
   * consulta que selecione todos os nomes de animais distintos.
   * consulta que retorne o número de alunos cujo primeiro nome é John.
+
+
+## Tools and Stacks
+* PHP 7.4.*
+* JavaScript
+* SQLTest (testar query) https://sqltest.net/
+* stackblitz (codificar em JS)
+* Replit (codificar em PHP) https://replit.com/
+
+## O que é necessário para rodar os projetos
+
+* Um servidor que suporte PHP
+* Um navegador;
