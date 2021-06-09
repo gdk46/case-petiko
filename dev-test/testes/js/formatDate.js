@@ -5,6 +5,8 @@
 
 function formatDate(userDate) {
   // format from M/D/YYYY to YYYYMMDD
+  let date =userDate.split("/");
+  return `${date["2"]}${date["1"]}${date["0"]}`
 }
 
 console.log(formatDate("12/31/2014"));
