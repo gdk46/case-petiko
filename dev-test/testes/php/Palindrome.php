@@ -13,13 +13,14 @@ Exemplo: isPalindrome("Asa") deve retonar true.
 */
 
 
-
-
 class Palindrome
 {
     public static function isPalindrome($word)
     {
-        return NULL;
+      $reverseWord = strrev($word);
+      if (strtoupper($word) === strtoupper($reverseWord)) {
+        return true;
+      }
     }
 }
 
