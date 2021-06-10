@@ -67,7 +67,7 @@ class LeagueTable
 
 		return $playerInRank['name'];
 	      }
-	      $count++;
+	      $position++;
 	    }
 
     	    return false;
